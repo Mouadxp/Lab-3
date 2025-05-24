@@ -31,6 +31,7 @@ while user_input != "n":
             total_cost -= discount
             print(f"\nYou saved ${discount:.2f} with a 10% discount!")
             print(f"Discounted Total: ${total_cost:.2f}")
+            
     except:
         print("Invalid number f items input")
 
