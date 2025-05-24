@@ -34,7 +34,7 @@ while user_input != "no":
             total_cost -= discount
             print(f"\nYou saved ${discount:.2f} with a 10% discount!")
             print(f"Discounted Total: ${total_cost:.2f}")
-    # This except block is to catch any invalid Number of items      
+    # This except block is to catch any invalid input for Number of items      
     except:
         print("Invalid number of items")
     # checking if the user want to restart the code
